@@ -67,7 +67,6 @@ public class CAlgorithmAnalyzer {
             }
         }
 
-        // Ajustar para recursão dupla em QuickSort (2 chamadas no corpo da função)
         recursionCount = Math.min(recursionCount, 2); // Garantir que sejam contadas apenas as chamadas principais
 
         // Determinação da complexidade do pior e melhor caso
